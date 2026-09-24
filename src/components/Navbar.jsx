@@ -68,7 +68,7 @@ export const Navbar = () => {
                 <button
                     type="button"
                     onClick={() => setIsMenuOpen((prev) => !prev)}
-                    className="relative z-50 p-2 text-foreground md:hidden"
+                    className="relative z-50 p-2 text-foreground md:hidden right-10"
                     aria-label={
                         isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"
                     }
