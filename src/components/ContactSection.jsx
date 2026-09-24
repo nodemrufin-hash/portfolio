@@ -7,6 +7,7 @@ import { Mail, MapPin, Phone, Send } from "lucide-react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 
+
 export const ContactSection = () => {
    
       const [isSending, setIsSending] = useState(false);
@@ -21,11 +22,11 @@ export const ContactSection = () => {
 
   try {
     await emailjs.sendForm(
-      "service_iznoiw8",
-      "template_8z9p5r4",
+     import.meta.env.VITE_EMAILJS_SERVICE_ID,
+     import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       form,
       {
-        publicKey: "RAiPikLRx1MCKLQWh",
+        publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       }
     );
 
