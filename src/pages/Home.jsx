@@ -7,6 +7,7 @@ import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection} from "@/components/ProjectsSection";
 import { ContactSection } from "@/components/ContactSection";
 import { ScrollToTop }   from "../components/ScrollToTop";
+import { Footer } from "../components/Footer";
 
 
 // import{StarBackground} from "../components/StarBackground";
@@ -30,6 +31,7 @@ export const Home = () => {
         <ContactSection />
       </main>
       {/* footer */}
+      <Footer  />
     </div>
   );
 };
