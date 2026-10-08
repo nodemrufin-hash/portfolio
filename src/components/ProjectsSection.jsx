@@ -31,7 +31,7 @@ import { FaLinkedin } from "react-icons/fa";
         title: "BibliothequeMaui",
         description:"Library management application developed in C# with .NET MAUI. It provides pages for managing books, authors, categories, and publishers.",
         image:"/projects/project3.png",
-        tags: [".NET 10 and .NET MAUI","C# and XAML","Entity Framework Core 9.0.2","SQL Server LocalDB","Next.js", "Visual Studio 2026"],
+        tags: [".NET 10 and .NET MAUI","C# and XAML","Entity Framework Core 9.0.2","SQL Server LocalDB", "Visual Studio 2026"],
         githubUrl:"https://github.com/nodemrufin-hash/BibliothequeMaui",
         linkdinUrl:"https://linkedin.com/in/keyanla-derrick",
         
