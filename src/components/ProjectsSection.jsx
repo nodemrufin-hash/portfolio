@@ -12,7 +12,7 @@ import { FaLinkedin } from "react-icons/fa";
         image:"/projects/project1.png",
         tags: ["React","Tailwind","React Hook Form","Prisma","Next.js", "SQlite"],
         demoUrl:"https://boutique-de-chaussure.vercel.app/",
-        githubUrl:"https://github.com/nodemrufin-hash",
+        githubUrl:"https://github.com/nodemrufin-hash/Boutique-de-chaussure",
         linkdinUrl:"https://linkedin.com/in/keyanla-derrick",
     },
      {
@@ -22,8 +22,19 @@ import { FaLinkedin } from "react-icons/fa";
         image:"/projects/project2.png",
         tags: ["React","Tailwind","React Hook Form","Prisma","Next.js", "SQlite","EmailJs"],
         demoUrl:"https://gestion-de-bank.vercel.app/",
-        githubUrl:"https://github.com/nodemrufin-hash",
+        githubUrl:"https://github.com/nodemrufin-hash/Gestion-de-bank",
         linkdinUrl:"https://linkedin.com/in/keyanla-derrick",
+    },
+
+     {
+        id: 3,
+        title: "BibliothequeMaui",
+        description:"Library management application developed in C# with .NET MAUI. It provides pages for managing books, authors, categories, and publishers.",
+        image:"/projects/project3.png",
+        tags: [".NET 10 and .NET MAUI","C# and XAML","Entity Framework Core 9.0.2","SQL Server LocalDB","Next.js", "Visual Studio 2026"],
+        githubUrl:"https://github.com/nodemrufin-hash/BibliothequeMaui",
+        linkdinUrl:"https://linkedin.com/in/keyanla-derrick",
+        
     },
  ];
 export const ProjectsSection = () => {
